@@ -2,8 +2,8 @@ import pandas as pd
 
 # === CONFIG ===
 input_file = "/Users/tysali/Downloads/AI_Human.csv"
-output_file = "subset_med.csv"
-n_samples_per_class = 5000
+output_file = "subset_sm.csv"
+n_samples_per_class = 3000
 chunksize = 50000
 
 collected = {True: [], False: []}
